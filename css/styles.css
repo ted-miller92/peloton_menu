@@ -1,0 +1,52 @@
+@font-face {
+    font-family: josefin-sans;
+    src: url(../JosefinSans-VariableFont_wght.ttf);
+}
+body{
+    font-family:josefin-sans;
+    padding:0px;
+    margin:0px;    
+}
+h2{
+    text-align:center;
+    line-height:0.9;
+}
+h5{
+    text-align:center;
+    line-height:0.7;
+}
+img{
+    max-width:100%;
+}
+
+.menuButtons{
+    padding:0px;
+    margin:0px;
+    max-width:100%;
+    overflow:hidden;
+    display:flex;
+    justify-content:space-around;
+}
+
+.menuButton{
+    font-size:9px;
+    color:#333;
+}
+
+/* Below is adapted from user Maheer Ali on Stack Overflow
+   Originally posted on March 31, 2019
+   https://stackoverflow.com/questions/55439746/vanilla-javascript-show-tab-and-hide-others   
+*/
+.menuImg {
+    display: none;
+}
+  
+.active {
+    display: block;
+    color:black;
+}
+  
+.active-btn {
+    text-decoration:underline;
+    text-decoration-thickness: 20%;
+}
