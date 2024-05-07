@@ -47,6 +47,7 @@ img{
   
 .active {
     display: block;
+    margin: auto;
     color:black;
 }
   
