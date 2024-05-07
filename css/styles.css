@@ -18,7 +18,11 @@ h5{
 img{
     max-width:100%;
 }
-
+#logoImage{
+  display:block;
+  width:100px;
+  margin:10px auto;
+}
 .menuButtons{
     padding:0px;
     margin:0px;
